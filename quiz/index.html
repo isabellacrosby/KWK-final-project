@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Quiz</title>
+<link href ="stylesheet" rel ="./styles.css">
+<script src = "main.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+<body>
+
+  <div class="top-bar">
+      <div id="logo">
+        <img id="starfish"src="starfish logo.png" alt="starfish">
+      </div>
+      <div class="button">
+      <button onclick="window.location.href ='.//put link here';">Homepage</button>
+      <button onclick="window.location.href ='.//put link here';">Events</button>
+      <button onclick="window.location.href ='file:///Users/avi/Desktop/projects-KwK/Final-project/about-us/index.html';">About Us</button>
+      </div>
+    </div>
+
+    <h1> Take our Quiz! </h1>
+
+<form id = "quiz" name = "quiz">
+
+
+<p class = "questions">About how much plastic waste is comprised of plastic straws and stirrers?</p>
+<input type = "radio" id = "mc" name = "question1" value = "a"> 100%<br>
+<input type = "radio" id = "mc" name = "question1" value = "b"> 0%<br>
+<input type = "radio" id = "mc" name = "question1" value = "c"> 70%<br>
+<input type = "radio" id = "mc" name = "question1" value = "d"> 10%<br>
+
+<p class = "questions">How many tons to Americans recycle each year?</p>
+<input type = "radio" id = "mc" name = "question2" value = "a"> 100 million tons<br>
+<input type = "radio" id = "mc" name = "question2" value = "b"> 2.85 billion tons<br>
+<input type = "radio" id = "mc" name = "question2" value = "c"> 87 billion tons<br>
+<input type = "radio" id = "mc" name = "question2" value = "d"> 56 million tons<br>
+
+<p class = "questions">On average, how many centimeters has the sea level risen since 1900?</p>
+
+<input type = "radio" id = "mc" name = "question3" value = "a"> 16.5cm<br>
+<input type = "radio" id = "mc" name = "question3" value = "b"> 0.5cm<br>
+<input type = "radio" id = "mc" name = "question3" value = "c"> 25.3cm<br>
+<input type = "radio" id = "mc" name = "question3" value = "d"> 1.7cm<br>
+
+<input id = "button" type = "button" value = "I'm finished!" onclick = "check();">
+
+
+</form>
+
+<div id = "after_submit">
+<p id = "number_correct"></p>
+<p id = "message"></p>
+<img id = "picture">
+</div>
+<script type="text/javascript" src="./index.js"></script>
+</html>
+
+</body>

@@ -1,0 +1,80 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #c0c0c0;
+}
+h1 {
+  color: #404040;
+}
+ .top-bar {
+background-color: #003940;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 10px;
+}
+  #starfish{
+ width: 200px;
+ height: 25px;
+ display: flex;
+}
+
+.button {
+  display: flex;
+  background-color: #003940;
+}
+#quiz{
+	margin-left: 10px;
+	background: #d2def2;
+	padding: 10px 20px 10px 20px;
+	width: 400px;
+	border-radius: 20px;
+	float: left;
+}
+
+input {
+	margin-bottom: 20px;
+	display: block;
+}
+
+button {
+  background: #0a4f57;
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	color: white;
+	font-size: 16px;
+	transition-duration: .5s;
+	margin-top: 15px;
+}
+
+button:hover {
+	background: white;
+	border: 1px solid #0a4f57;
+  color: #0a4f57;
+	cursor: pointer;
+
+}
+
+#after_submit {
+	visibility: hidden;
+  background-color: white;
+	padding: 10px 20px 10px 20px;
+	width: 400px;
+	border-radius: 20px;
+	float: left;
+	margin-left: 20px;
+	font-size: 30px;
+
+}
+
+#picture {
+	width: 375px;
+	height: 245px;
+}
+
+
+
+#mc {
+	display: inline;
+}
