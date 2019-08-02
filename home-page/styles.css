@@ -27,16 +27,17 @@ img {
 }
 .button {
   display: flex;
-  flex-direction: row;
-  justify-content:flex-end;
-}
-#button {
-  padding: 10px;
   background-color: #003940;
-  border: none;
-  font-size: 20px;
-  font-family: 'Quicksand', sans-serif;
-color: white;
+}
+button {
+  background: #0a4f57;
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	color: white;
+	font-size: 16px;
+	transition-duration: .5s;
+	margin-top: 15px;
 }
 
 .video-bar {
